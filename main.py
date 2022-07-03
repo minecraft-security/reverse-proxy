@@ -16,6 +16,8 @@ projects = {}
 
 
 def validate_config():
+    """Validates the configuration file and makes sure everything vital for execution is present."""
+
     if config["404_page"] != "":
         try:
             file = Path(config["404_page"])

@@ -10,6 +10,26 @@ I would add `a.com` and `b.com` as elements in the projects array (in the config
 
 **Note**: This may sound a bit complicated, but in implementation, it's much easier. I also might've over-explained it a bit.
 
+#### Deploying
+
+```
+git clone https://github.com/minecraft-security/reverse-proxy reverse_proxy
+cd reverse_proxy
+pip install -r requirements.txt
+nano config.json
+python3 main.py
+```
+
+- Clone the repository and CD into it
+- Install the requirements (`requirements.txt`)
+- Modify the configuration file to suit your needs
+- Run `main.py`
+
+You need to restart the program for any modifications in the configuration to take effect. This program was tested only on `Python 3.10.4` but should support earlier versions of Python 3 as well.
+
+
+#### Configuring
+
 ```json
 {
     "404_page": "",
