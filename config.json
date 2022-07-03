@@ -1,0 +1,10 @@
+{
+    "404_page": "",
+    "log": "/var/python_proxy.log",
+    "projects": [
+        {
+            "hostname": "",
+            "serve": "localhost:3000"
+        }
+    ]
+}
