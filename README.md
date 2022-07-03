@@ -8,6 +8,7 @@ For example, I have two websites running on one machine, `a.com` on port 3000, a
 - Request on `a.com`
 - Sends a request to `localhost:3000`
 - Relays content back to user
+
 Headers, cookies are preserved on all requests.
 
 #### Deploying
