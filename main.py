@@ -59,7 +59,7 @@ import aiohttp
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 session = []
 
 
