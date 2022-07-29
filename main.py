@@ -9,7 +9,7 @@ with open(config_file, "r", encoding="utf-8") as handler:
     config = json.load(handler)
 
 _config = {
-    "404_page": "<title>Not Found</title> <body><h1>404 Webpage Not Found</h1><p>Please Verify the URL and try again.</p></body><br><br><h3>If you are the owner of this site</h3><br><p>There is no hostname configured to serve for this domain, please check your configuration file or view the <a href='https://proxy-docs.minecraft-security.com'>docs</a>.<br><a href='https://github.com/Minecraft-Security/reverse_proxy'>View Source</a><p>"
+    "404_page": "<title>Not Found</title> <body><h1>404 Webpage Not Found</h1><p>Please Verify the URL and try again.</p></body><br><br><h3>If you are the owner of this site</h3><br><p>There is no hostname configured to serve for this domain, please check your configuration file or view the <a href='https://proxy-docs.minecraft-security.com'>docs</a>.<br><a href='https://github.com/minecraft-security/reverse-proxy'>View Source</a><p>"
 }
 
 projects = {}
